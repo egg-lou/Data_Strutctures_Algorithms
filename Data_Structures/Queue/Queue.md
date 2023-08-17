@@ -23,6 +23,7 @@ In a queue:
 2. **Dequeue()**: Removes the front element from the queue.
 3. **Front()**: Retrieves the front element without removing it.
 4. **IsEmpty()**: Returns `True` if the queue is empty; otherwise, returns `False`.
+5. **IsFull()**: Returns `True` if the queue is full; otherwise, returns `False`.
 
 These operations generally have a constant time complexity of **O(1)**.
 
@@ -40,5 +41,3 @@ Queues can be implemented using different data structures, such as:
 
 1. **Arrays**: See `Array_Queue.c` for an example implementation.
 2. **Linked Lists**: See `LinkedList_Queue.c` for an example implementation.
-
-Choose the implementation based on your specific use case and programming preferences.
